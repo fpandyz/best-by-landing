@@ -1,0 +1,177 @@
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: $ff-montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  color: $color-white;
+  background-color: $color-black;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $pd-mobile;
+  padding-left: $pd-mobile;
+  width: 100%;
+  max-width: 1456px;
+
+  @include tablet {
+    padding-right: $pd-tablet;
+    padding-left: $pd-tablet;
+  }
+
+  @include tablet-xl {
+    padding-right: $pd-tablet-xl;
+    padding-left: $pd-tablet-xl;
+  }
+
+  @include desktop {
+    padding-right: $pd-desktop;
+    padding-left: $pd-desktop;
+  }
+
+  @include desktop-xl {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.title-type-1 {
+  font-weight: inherit;
+  font-size: 40px;
+  line-height: 1.2;
+
+  @include tablet-xl {
+    font-size: 44px;
+    line-height: 1.18;
+  }
+
+  @include desktop {
+    font-size: 48px;
+    line-height: 1.08;
+  }
+
+  @include desktop-xl {
+    font-size: 64px;
+    line-height: 1.125;
+  }
+}
+
+.title-type-2 {
+  font-weight: inherit;
+  font-size: 24px;
+  line-height: 1.33;
+
+  @include tablet-xl {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  @include desktop {
+    font-size: 36px;
+    line-height: 1.22;
+  }
+
+  @include desktop-xl {
+    font-size: 48px;
+    line-height: 1.125;
+  }
+}
+
+.text-type-1 {
+  font-weight: inherit;
+  font-size: 22px;
+  line-height: 1.375;
+
+  @include tablet-xl {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  @include desktop {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  @include desktop-xl {
+    font-size: 32px;
+  }
+}
+
+.text-type-2 {
+  font-weight: inherit;
+  font-size: 14px;
+  line-height: 1.43;
+
+  @include tablet-xl {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  @include desktop {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  @include desktop-xl {
+    font-size: 24px;
+  }
+}
+
+.text-type-3 {
+  font-size: 16px;
+  line-height: 1.37;
+
+  @include tablet-xl {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  @include desktop {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  @include desktop-xl {
+    font-size: 32px;
+  }
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.link {
+  position: relative;
+  color: $color-link;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 1px;
+    background: $color-link;
+  }
+
+  &:hover,
+  &:hover::before {
+    background-image: $color-gradient;
+  }
+
+  &:hover {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
