@@ -5,8 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start:pre-release": "next start",
     "start": "next start",
-    "lint": "next lint"
+    "postcss": "postcss components/Footer/Footer.scss --dir build/static/css --parser postcss-scss",
+    "lint": "next lint",
+    "lint:fix": "npm run lint:ts:fix && npm run lint:scss:fix",
+    "lint:ts": "next lint",
+    "lint:scss": "npx stylelint \"**/*.{css,scss}\"",
+    "lint:ts:fix": "next lint -- --fix",
+    "lint:scss:fix": "npm run lint:scss -- --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "clsx": "^2.1.1",
