@@ -1,8 +1,16 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
+import { Inter, Manrope } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['500', '600'],
+});
+
+const manrope = Manrope({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '500'],
+});
 
 export default function Home() {
   return (
@@ -15,7 +23,11 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div>
-          Hello, is`s a first project! Hello
+          <p className={`${inter.className}`} style={{ fontWeight: 500 }}>Inter 500</p>
+          <p className={`${inter.className}`} style={{ fontWeight: 600 }}>Inter 600</p>
+
+          <p className={`${manrope.className}`} style={{ fontWeight: 400 }}>Manrope 400</p>
+          <p className={`${manrope.className}`} style={{ fontWeight: 500 }}>Manrope 500</p>
         </div>
       </main>
     </>
