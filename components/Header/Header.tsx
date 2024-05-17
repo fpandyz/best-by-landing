@@ -1,22 +1,22 @@
 import Image from 'next/image';
-import LogoImageMobileSrc from '../../public/images/MINI_LOGO.svg';
-import LogoImageDesktopSrc from '../../public/images/LOGO.svg';
+import LogoImageTabletSrc from '../../public/images/logo-best-by-tablet.svg';
+import LogoImageDesktopSrc from '../../public/images/logo-best-by-desktop.svg';
 
 export function Header() {
   return (
     <header className="header">
       <div className="container header__wrapper">
         <Image
-          src={LogoImageMobileSrc}
+          src={LogoImageTabletSrc}
           className="header__logo header__logo--small"
-          alt="headerLogo"
+          alt="Best By Logo"
         />
         <Image
           src={LogoImageDesktopSrc}
           className="header__logo header__logo--desktop"
-          alt="headerLogo"
+          alt="Best By Logo"
         />
-        <a href="mailto:contact@tourmalinecore.com" className="manrope-500 header__btnPost">Оставить заявку</a>
+        <a href="mailto:contact@tourmalinecore.com" className="font-family-1 header__btn">Оставить заявку</a>
       </div>
     </header>
   );

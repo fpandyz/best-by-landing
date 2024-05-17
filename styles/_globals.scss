@@ -11,37 +11,35 @@ body {
   margin-left: auto;
   padding-left: $pd-mobile;
   padding-right: $pd-mobile;
-  max-width: 21.438rem;
 
   @include tablet {
     padding-left: $pd-tablet;
     padding-right: $pd-tablet;
-    max-width: 46rem;
   }
 
   @include desktop {
     padding-left: $pd-desktop;
     padding-right: $pd-desktop;
-    max-width: 78.375rem;
+    max-width: 78rem;
   }
 }
 
-.manrope-500 {
+.font-family-1 {
   font-family: $ff-manrope;
   font-weight: 500;
 }
 
-.manrope-400 {
+.font-family-2 {
   font-family: $ff-manrope;
   font-weight: 400;
 }
 
-.inter-600 {
+.font-family-3 {
   font-family: $ff-inter;
   font-weight: 600;
 }
 
-.inter-500 {
+.font-family-4 {
   font-family: $ff-inter;
   font-weight: 500;
 }
