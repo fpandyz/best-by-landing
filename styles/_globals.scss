@@ -1,2 +1,27 @@
+html {
+  font-size: 16px;
+}
 
+body {
+  background-color: $body-bg-color;
+}
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $pd-mobile;
+  padding-right: $pd-mobile;
+  max-width: 21.438rem;
+
+  @include tablet {
+    padding-left: $pd-tablet;
+    padding-right: $pd-tablet;
+    max-width: 46rem;
+  }
+
+  @include desktop {
+    padding-left: $pd-desktop;
+    padding-right: $pd-desktop;
+    max-width: 78.375rem;
+  }
+}
