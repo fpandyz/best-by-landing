@@ -16,7 +16,7 @@ export function Header() {
           className="header__logo header__logo--desktop"
           alt="headerLogo"
         />
-        <a href="mailto:contact@tourmalinecore.com" className="header__btnPost">Оставить заявку</a>
+        <a href="mailto:contact@tourmalinecore.com" className="manrope-500 header__btnPost">Оставить заявку</a>
       </div>
     </header>
   );
