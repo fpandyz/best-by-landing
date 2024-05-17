@@ -1,2 +1,45 @@
+html {
+  font-size: 16px;
+}
 
+body {
+  background-color: $body-bg-color;
+}
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $pd-mobile;
+  padding-right: $pd-mobile;
+
+  @include tablet {
+    padding-left: $pd-tablet;
+    padding-right: $pd-tablet;
+  }
+
+  @include desktop {
+    padding-left: $pd-desktop;
+    padding-right: $pd-desktop;
+    max-width: 78rem;
+  }
+}
+
+.font-family-1 {
+  font-family: $ff-manrope;
+  font-weight: 500;
+}
+
+.font-family-2 {
+  font-family: $ff-manrope;
+  font-weight: 400;
+}
+
+.font-family-3 {
+  font-family: $ff-inter;
+  font-weight: 600;
+}
+
+.font-family-4 {
+  font-family: $ff-inter;
+  font-weight: 500;
+}

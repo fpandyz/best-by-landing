@@ -1,0 +1,59 @@
+.header {
+  padding: 1rem 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    max-width: 7rem;
+    height: fit-content;
+
+    &--small {
+      @include tablet {
+        display: none;
+      }
+    }
+
+    &--desktop {
+      display: none;
+
+      @include tablet {
+        display: block;
+      }
+    }
+
+    @include tablet {
+      max-width: 7rem;
+    }
+
+    @include desktop {
+      max-width: 9rem;
+    }
+  }
+
+  &__btn {
+    height: fit-content;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: $color-white;
+    background-color: $color-black;
+    border-radius: 6.3rem;
+    padding: 0.7rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include tablet {
+      font-size: 0.9rem;
+      padding: 0.7rem 2rem;
+    }
+
+    @include desktop {
+      font-size: 1.1rem;
+      padding: 0.8rem 2rem;
+    }
+  }
+}
