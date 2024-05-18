@@ -9,17 +9,17 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: $pd-mobile;
   padding-right: $pd-mobile;
+  padding-left: $pd-mobile;
 
   @include tablet {
-    padding-left: $pd-tablet;
     padding-right: $pd-tablet;
+    padding-left: $pd-tablet;
   }
 
   @include desktop {
-    padding-left: $pd-desktop;
     padding-right: $pd-desktop;
+    padding-left: $pd-desktop;
     max-width: 78rem;
   }
 }
@@ -100,7 +100,7 @@ body {
   }
 
   @include desktop {
-    font-size: 1.5rem; // 20px
+    font-size: 1.3rem; // 20px
   }
 }
 
