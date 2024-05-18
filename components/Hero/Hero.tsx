@@ -17,17 +17,17 @@ export function Hero() {
         <div className="hero__cards">
           <Image
             src={SeafoodImageSrc}
-            className="hero__cardImage"
+            className="hero__card-image"
             alt="Seafood Image"
           />
           <Image
             src={PreviewInterfaceSrc}
-            className="hero__cardImage hero__cardImage_large"
+            className="hero__card-image hero__card-image_large"
             alt="Preview Interaface Image"
           />
           <Image
             src={CakeSrc}
-            className="hero__cardImage"
+            className="hero__card-image"
             alt="Cake Image"
           />
         </div>
