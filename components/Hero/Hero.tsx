@@ -5,7 +5,7 @@ import CakeSrc from '../../public/images/cake.jpg';
 
 export function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="container hero__wrapper">
         <h1 className="font-family-2 text-type-1 hero__title">
           Сервис для отслеживания срока годности продукции
@@ -32,6 +32,6 @@ export function Hero() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
