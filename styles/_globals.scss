@@ -81,7 +81,7 @@ body {
 }
 
 .text-type-4 {
-  font-size: 1rem; // 16px
+  font-size: 1.3rem; // 20px
 
   @include tablet {
     font-size: 1.4rem; // 23px
@@ -108,7 +108,7 @@ body {
   font-size: 1rem; // 16px
 
   @include tablet {
-    font-size: 1rem; // 16px
+    font-size: 1.1rem; // 18px
   }
 
   @include desktop {
