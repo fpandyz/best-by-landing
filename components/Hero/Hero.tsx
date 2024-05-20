@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import SeafoodImageSrc from '../../public/images/seafood.jpg';
-import PreviewInterfaceSrc from '../../public/images/previewInterface1.jpg';
+import PreviewInterfaceSrc from '../../public/images/previewInterface.jpg';
 import CakeSrc from '../../public/images/cake.jpg';
 
 export function Hero() {
@@ -22,8 +22,8 @@ export function Hero() {
           />
           <Image
             src={PreviewInterfaceSrc}
-            className="hero__card-image hero__card-image_large"
-            alt="Preview Interaface Image"
+            className="hero__card-image hero__card-image--large"
+            alt="Preview Interface Image"
           />
           <Image
             src={CakeSrc}
