@@ -115,15 +115,3 @@ body {
     font-size: 1.1rem; // 18px
   }
 }
-
-.text-type-7 {
-  font-size: 0.6rem; // 14px
-
-  @include tablet {
-    font-size: 0.9rem; // 14px
-  }
-
-  @include desktop {
-    font-size: 1rem; // 16px
-  }
-}
