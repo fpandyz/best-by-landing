@@ -1,6 +1,6 @@
 // Container padding
 $pd-mobile: 1rem;
-$pd-tablet: $pd-mobile;
+$pd-tablet: 1.4rem;
 $pd-desktop: 3.5rem;
 
 // Black color
@@ -8,6 +8,9 @@ $color-black: rgb(000 000 000);
 
 // White color
 $color-white: rgb(255 255 255);
+
+// Gray color
+$color-gray: rgb(87 87 87);
 
 // Globals
 $body-bg-color: rgb(248 248 248);
