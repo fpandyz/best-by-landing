@@ -12,7 +12,7 @@ export function Benefit() {
         <div className="benefit__card benefit__card--last">
           <p className="text-type-6 benefit__description">
             Вам и вашим сотрудникам больше не нужно проверять свежесть продукции вручную.
-            Best By поможет сосредоточиться только на продукции требующей вашего вниманияl
+            Best By поможет сосредоточиться только на продукции требующей вашего внимания
           </p>
         </div>
         <div className="benefit__card">
