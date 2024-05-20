@@ -9,19 +9,20 @@
 
   &__card {
     position: relative;
-    margin-bottom: 0.9rem;
+    margin-bottom: 1rem;
     border-radius: 2.3rem;
     padding: 1.5rem;
     width: 100%;
-    min-height: 13.5rem;
+    min-height: 16rem;
     box-sizing: border-box;
-    background-repeat: no-repeat;
     background-color: $color-white;
+    aspect-ratio: 4/2;
 
     &--image-bg-1 {
       background-image: url("../../public/images/computer-on-the-table.png");
-      background-position: center 1.8rem;
+      background-position: center 1.7rem;
       background-size: cover;
+      background-repeat: no-repeat;
 
       @include desktop {
         background-position: center bottom;
@@ -34,6 +35,7 @@
       background-image: url("../../public/images/cash-register.jpg");
       background-position: center center;
       background-size: cover;
+      background-repeat: no-repeat;
     }
 
     &--first {
@@ -41,6 +43,7 @@
       padding: 0;
       min-height: fit-content;
       background-color: transparent;
+      aspect-ratio: 0;
     }
 
     &--last {
@@ -50,19 +53,30 @@
       padding: 0;
       min-height: fit-content;
       background-color: transparent;
+      aspect-ratio: 0;
 
       @include tablet {
         margin-bottom: 2rem;
       }
     }
 
+    &--order1 {
+      @include tablet {
+        order: 1;
+      }
+
+      @include desktop {
+        order: 0;
+      }
+    }
+
     @include tablet {
-      min-height: 16.5rem;
+      padding: 2rem;
       max-width: 49%;
 
       &--first,
       &--last {
-        min-height: fit-content;
+        padding: 0;
         max-width: 100%;
       }
     }
@@ -70,7 +84,7 @@
     @include desktop {
       margin-bottom: 0.6rem;
       border-radius: 3rem;
-      padding: 2rem;
+      padding: 2.5rem;
       min-height: 22.5rem;
       max-width: 25.6rem;
 
@@ -79,7 +93,7 @@
       }
 
       &--last {
-        order: 1;
+        order: 2;
         padding: 1.5rem 0 1.5rem 2.5rem;
       }
     }
@@ -91,8 +105,7 @@
   }
 
   &__title {
-    margin-bottom: 0.6rem;
-    max-width: 20.5rem;
+    margin-bottom: 1rem;
     line-height: 1.2;
 
     &--short {
@@ -108,20 +121,22 @@
     position: absolute;
     left: 1.5rem;
     bottom: 1.5rem;
-    width: 25%;
+    width: 32%;
     height: fit-content;
-    min-width: 7.5rem;
-    max-width: 9rem;
+    min-width: 8.5rem;
+    max-width: 20rem;
 
     @include tablet {
-      width: 27%;
+      left: 2rem;
+      bottom: 2rem;
+      width: 28%;
       min-width: 8.5rem;
-      max-width: 10rem;
+      max-width: 19rem;
     }
 
     @include desktop {
-      left: 2rem;
-      bottom: 2rem;
+      left: 2.5rem;
+      bottom: 2.5rem;
       width: 100%;
       max-width: 10.5rem;
     }
@@ -133,16 +148,20 @@
     bottom: 1.5rem;
     width: 37%;
     height: fit-content;
-    max-width: 10rem;
+    max-width: 12rem;
 
     @include tablet {
-      width: 50%;
-      max-width: 10rem;
+      left: 2rem;
+      bottom: 2rem;
+      width: 40%;
+      max-width: 14rem;
     }
 
     @include desktop {
-      left: 2rem;
-      bottom: 2rem;
+      left: 2.5rem;
+      bottom: 2.5rem;
+      width: 40%;
+      max-width: 15rem;
     }
   }
 

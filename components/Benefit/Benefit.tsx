@@ -27,7 +27,7 @@ export function Benefit() {
         <div className="benefit__card benefit__card--image-bg-1">
           <p className="text-type-4 benefit__title">Помогает контролировать работу сотрудников</p>
         </div>
-        <div className="benefit__card">
+        <div className="benefit__card benefit__card--order1">
           <p className="text-type-4 benefit__title">Повышает доверие покупателей</p>
           <p className="text-type-6 benefit__description">Отслеживает продукцию, попадающую на прилавок</p>
           <Image
