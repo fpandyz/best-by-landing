@@ -1,0 +1,182 @@
+.benefit {
+  padding: 2rem 0;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__card {
+    position: relative;
+    width: 100%;
+
+    &:not(:nth-child(-n+2)) {
+      margin-bottom: 1rem;
+      border-radius: 2.3rem;
+      padding: 1.5rem;
+      max-height: 18.8rem;
+      background-color: $color-white;
+      aspect-ratio: 4/3;
+
+      @include tablet {
+        padding: 2rem;
+      }
+
+      @include desktop {
+        margin-bottom: 0.6rem;
+        border-radius: 3rem;
+        padding: 2.5rem;
+      }
+    }
+
+    &:nth-child(1) {
+      margin-bottom: 1rem;
+    }
+
+    &:nth-child(2) {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+
+      @include tablet {
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+      }
+
+      @include desktop {
+        display: flex;
+        align-items: flex-end;
+        order: 2;
+        margin-bottom: inherit;
+        padding: 1.5rem 0 1.5rem 2.5rem;
+        font-size: 1.1rem;
+      }
+    }
+
+    &:nth-child(4) {
+      background-image: url("../../public/images/computer-on-the-table.png");
+      background-position: center 1.7rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      @include desktop {
+        background-position: center bottom;
+        background-size: contain;
+      }
+    }
+
+    &:nth-child(5) {
+      @include tablet {
+        order: 1;
+      }
+
+      @include desktop {
+        order: 0;
+      }
+    }
+
+    &:nth-child(6) {
+      color: $color-white;
+      background-image: url("../../public/images/cash-register.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    @include tablet {
+      max-width: 49%;
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        max-width: 100%;
+      }
+    }
+
+    @include desktop {
+      min-height: 22.5rem;
+      max-width: 25.5rem;
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        max-width: 25.5rem;
+      }
+    }
+  }
+
+  &__block-title {
+    max-width: 18rem;
+    font-family: inherit;
+    line-height: 1.1;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+    font-family: inherit;
+    line-height: 1.2;
+
+    &--short {
+      max-width: 14rem;
+    }
+  }
+
+  &__description {
+    font-family: inherit;
+    color: $color-gray;
+  }
+
+  &__diagram {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    width: 50%;
+    height: fit-content;
+    min-width: 9.5rem;
+    max-width: 15rem;
+
+    @include tablet {
+      left: 2rem;
+      bottom: 2rem;
+      width: 45%;
+      min-width: 8.5rem;
+      max-width: 12rem;
+    }
+
+    @include desktop {
+      left: 2.5rem;
+      bottom: 2.5rem;
+      width: 100%;
+      max-width: 11.5rem;
+    }
+  }
+
+  &__customers {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    width: 50%;
+    height: fit-content;
+    max-width: 11rem;
+
+    @include tablet {
+      left: 2rem;
+      bottom: 2rem;
+      width: 50%;
+      max-width: 11rem;
+    }
+
+    @include desktop {
+      left: 2.5rem;
+      bottom: 2.5rem;
+      width: 40%;
+      max-width: 15rem;
+    }
+  }
+
+  @include tablet {
+    padding: 3rem 0;
+  }
+
+  @include desktop {
+    padding: 5.6rem 0;
+  }
+}

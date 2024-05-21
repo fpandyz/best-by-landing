@@ -1,8 +1,10 @@
-html {
-  font-size: 16px;
-}
-
+html,
 body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
   background-color: $body-bg-color;
 }
 
@@ -20,7 +22,7 @@ body {
   @include desktop {
     padding-right: $pd-desktop;
     padding-left: $pd-desktop;
-    max-width: 78rem;
+    max-width: 85.3rem;
   }
 }
 
@@ -108,7 +110,7 @@ body {
   font-size: 1rem; // 16px
 
   @include tablet {
-    font-size: 1.1rem; // 18px
+    font-size: 1rem; // 16px
   }
 
   @include desktop {

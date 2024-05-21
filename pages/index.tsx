@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Benefit } from '@/components/Benefit/Benefit';
 import { Header } from '../components/Header/Header';
 import { Layout } from '../components/Layout/Layout';
 import { Hero } from '../components/Hero/Hero';
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Layout>
         <Hero />
+        <Benefit />
       </Layout>
     </>
   );
