@@ -105,11 +105,13 @@
 
   &__block-title {
     max-width: 18rem;
+    font-family: inherit;
     line-height: 1.1;
   }
 
   &__title {
     margin-bottom: 1rem;
+    font-family: inherit;
     line-height: 1.2;
 
     &--short {
@@ -118,6 +120,7 @@
   }
 
   &__description {
+    font-family: inherit;
     color: $color-gray;
   }
 
