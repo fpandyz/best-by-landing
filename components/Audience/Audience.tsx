@@ -9,22 +9,22 @@ export function Audience() {
         </p>
         <div className="audience__cards">
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Кафе</h2>
+            <h3 className="text-type-5 audience__card-title">Кафе</h3>
           </div>
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Пекарни</h2>
+            <h3 className="text-type-5 audience__card-title">Пекарни</h3>
           </div>
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Рестораны</h2>
+            <h3 className="text-type-5 audience__card-title">Рестораны</h3>
           </div>
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Магазины</h2>
+            <h3 className="text-type-5 audience__card-title">Магазины</h3>
           </div>
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Столовые</h2>
+            <h3 className="text-type-5 audience__card-title">Столовые</h3>
           </div>
           <div className="audience__card">
-            <h2 className="text-type-5 audience__card-title">Фастфуд</h2>
+            <h3 className="text-type-5 audience__card-title">Фастфуд</h3>
           </div>
         </div>
       </div>
