@@ -9,14 +9,14 @@ export function Benefit() {
         <div className="benefit__card">
           <h2 className="font-family-2 text-type-2 benefit__block-title">Чем полезен</h2>
         </div>
-        <div className="benefit__card benefit__card">
+        <div className="benefit__card">
           <p className="benefit__description">
             Вам и вашим сотрудникам больше не нужно проверять свежесть продукции вручную.
             Best By поможет сосредоточиться только на продукции требующей вашего внимания
           </p>
         </div>
         <div className="benefit__card">
-          <p className="text-type-4 benefit__title benefit__title--short">Уменьшает убытки</p>
+          <h3 className="text-type-4 benefit__title benefit__title--short">Уменьшает убытки</h3>
           <p className="text-type-6 benefit__description">Сокращает списания товаров с истекшим сроком годности</p>
           <Image
             src={DiagramSrc}
@@ -25,10 +25,10 @@ export function Benefit() {
           />
         </div>
         <div className="benefit__card">
-          <p className="text-type-4 benefit__title">Помогает контролировать работу сотрудников</p>
+          <h3 className="text-type-4 benefit__title">Помогает контролировать работу сотрудников</h3>
         </div>
         <div className="benefit__card">
-          <p className="text-type-4 benefit__title">Повышает доверие покупателей</p>
+          <h3 className="text-type-4 benefit__title">Повышает доверие покупателей</h3>
           <p className="text-type-6 benefit__description">Отслеживает продукцию, попадающую на прилавок</p>
           <Image
             src={CustomersSrc}
@@ -37,7 +37,7 @@ export function Benefit() {
           />
         </div>
         <div className="benefit__card">
-          <p className="text-type-4 benefit__title">Снижает риск продажи просроченной продукции</p>
+          <h3 className="text-type-4 benefit__title">Снижает риск продажи просроченной продукции</h3>
         </div>
       </div>
     </section>
