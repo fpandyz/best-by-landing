@@ -33,105 +33,52 @@
     border-radius: 2rem;
     padding: 1.3rem 1rem;
     width: 48.7%;
-    max-height: 13.5rem;
+    min-height: 13.5rem;
+    background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
-    aspect-ratio: 1/2;
 
     &:nth-child(1) {
       background-image: url("../../public/images/audience-coffie.jpg");
-      background-position: left center;
-      background-size: 130%;
     }
 
     &:nth-child(2) {
       background-image: url("../../public/images/audience-cakes.jpg");
-      background-position: left center;
-      background-size: 100%;
-
-      @include desktop {
-        background-position: -1.9rem center;
-        background-size: 130%;
-      }
     }
 
     &:nth-child(3) {
       background-image: url("../../public/images/audience-tables.jpg");
-      background-position: -1.9rem center;
-      background-size: 130%;
-
-      @include tablet {
-        background-position: -2.5rem center;
-        background-size: 135%;
-      }
-
-      @include desktop {
-        background-image: url("../../public/images/audience-tables.jpg");
-        background-position: -2.2rem center;
-        background-size: cover;
-      }
     }
 
     &:nth-child(4) {
       background-image: url("../../public/images/audience-fish.jpg");
-      background-position: -7.5rem center;
-      background-size: 270%;
-
-      @include tablet {
-        background-position: -10.9rem center;
-        background-size: 280%;
-      }
-
-      @include desktop {
-        background-image: url("../../public/images/audience-fish.jpg");
-        background-position: -9.4rem center;
-        background-size: 280%;
-      }
+      background-position: center center;
     }
 
     &:nth-child(5) {
       background-image: url("../../public/images/audience-herbs.jpg");
-      background-position: -3.8rem center;
-      background-size: 165%;
-
-      @include tablet {
-        background-position: -4.7rem center;
-      }
-
-      @include desktop {
-        background-position: -4rem center;
-      }
     }
 
     &:nth-child(6) {
       background-image: url("../../public/images/audience-pizza.jpg");
-      background-position: -1.9rem center;
-      background-size: 130%;
-
-      @include tablet {
-        background-size: 125%;
-      }
-
-      @include desktop {
-        background-size: 130%;
-      }
     }
 
     @include tablet {
       margin-bottom: 1.3%;
       padding: 1.5rem 1.3rem;
       width: 32.4%;
-      max-height: 17.5rem;
+      min-height: 17.5rem;
     }
 
     @include desktop {
+      margin-bottom: 0;
       border-radius: 2.5rem;
+      min-height: 23.9rem;
       max-width: 12.4rem;
-      max-height: 23.9rem;
     }
   }
 
-  &__card-title {
+  &__label {
     border-radius: 1.9rem;
     padding: 0.4rem 0.8rem;
     width: fit-content;
