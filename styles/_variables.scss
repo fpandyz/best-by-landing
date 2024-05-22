@@ -10,12 +10,21 @@ $section-padding-desktop: 5.6rem 0;
 
 // Black color
 $color-black: rgb(000 000 000);
+$color-black-card-bg: rgb(24 22 23);
+$color-black-card-title: rgb(15 17 25);
 
 // White color
 $color-white: rgb(255 255 255);
+$color-white-70: rgb(255 255 255 / 70%);
+$color-white-category: rgb(247 244 243);
 
 // Gray color
 $color-gray: rgb(87 87 87);
+$color-gray-category-bg: rgb(239 240 242);
+$color-gray-product-status: rgb(194 194 194);
+
+// Red color
+$color-red-category-bg: rgb(251 0 44);
 
 // Globals
 $body-bg-color: rgb(248 248 248);
