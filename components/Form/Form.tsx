@@ -1,20 +1,11 @@
-import Image from 'next/image';
-import PhoneImageSrc from '../../public/images/form-phone.jpg';
-
 export function Form() {
   return (
     <section className="form">
       <div className="container form__wrapper">
-        <div className="form__card">
-          <Image
-            src={PhoneImageSrc}
-            className="form__image"
-            alt="Phone Image"
-          />
-        </div>
-        <div className="from__card">
-          <div className="form__title">Свяжитесь с нами</div>
-          <div className="form__description">
+        <div className="form__image" />
+        <div className="font-family-1 form__card">
+          <div className="font-family-2 text-type-2 form__title">Свяжитесь с нами</div>
+          <div className="text-type-5 form__description">
             Мы расскажем, как происходит внедрение системы
             в производственный процесс и ответим на все вопросы.
           </div>
