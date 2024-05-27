@@ -6,15 +6,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.3rem;
-
-    @include tablet {
-      padding: $pd-tablet;
-    }
 
     @include desktop {
       justify-content: space-around;
-      padding: $pd-desktop;
     }
   }
 
@@ -29,7 +23,7 @@
 
     @include desktop {
       border-radius: 2.4rem;
-      width: 26%;
+      width: 29%;
     }
   }
 
