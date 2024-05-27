@@ -62,8 +62,6 @@
     }
 
     &:nth-of-type(3) {
-      min-height: 24.6rem;
-
       @include tablet {
         max-width: 60%;
       }
@@ -114,18 +112,22 @@
     }
 
     @include tablet {
-      margin-bottom: 2%;
+      &:not(:nth-child(5), :nth-child(6)) {
+        margin-bottom: 2%;
+      }
     }
 
     @include desktop {
-      margin-bottom: 1%;
       border-radius: 3rem;
       padding: 3rem;
+
+      &:not(:nth-child(5), :nth-child(6)) {
+        margin-bottom: 1%;
+      }
     }
   }
 
   &__label {
-    display: inline-block;
     margin-bottom: 1rem;
     font-family: inherit;
     line-height: 1;
@@ -215,6 +217,7 @@
 
   &__product-images {
     display: flex;
+    margin-top: 1.5rem;
     gap: 2%;
   }
 
@@ -254,15 +257,14 @@
     flex-direction: row;
     margin-top: 1.5rem;
     gap: 1rem;
+  }
 
-    :nth-child(1),
-    :nth-child(2) {
-      width: 22%;
-      height: fit-content;
+  &__employees-icon {
+    width: 22%;
+    height: fit-content;
 
-      @include tablet {
-        width: 35%;
-      }
+    @include tablet {
+      width: 35%;
     }
   }
 
