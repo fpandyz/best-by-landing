@@ -1,0 +1,43 @@
+.demonstration {
+  padding: $section-padding-mobile;
+  background-color: $color-white-demonstration-bg;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.3rem;
+
+    @include tablet {
+      padding: $pd-tablet;
+    }
+
+    @include desktop {
+      justify-content: space-around;
+      padding: $pd-desktop;
+    }
+  }
+
+  &__video {
+    border-radius: 1.2rem;
+    width: 32.5%;
+
+    @include tablet {
+      border-radius: 2rem;
+      width: 32%;
+    }
+
+    @include desktop {
+      border-radius: 2.4rem;
+      width: 26%;
+    }
+  }
+
+  @include tablet {
+    padding: $section-padding-tablet;
+  }
+
+  @include desktop {
+    padding: $section-padding-desktop;
+  }
+}
