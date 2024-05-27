@@ -6,6 +6,7 @@ import { Hero } from '../components/Hero/Hero';
 import { Audience } from '../components/Audience/Audience';
 import { Possibilities } from '../components/Possibilities/Possibilities';
 import { Demonstration } from '../components/Demonstration/Demonstration';
+import { Advantages } from '../components/Advantages/Advantages';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Audience />
         <Possibilities />
         <Demonstration />
+        <Advantages />
       </Layout>
     </>
   );
