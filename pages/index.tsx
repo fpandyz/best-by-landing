@@ -1,9 +1,10 @@
 import Head from 'next/head';
-import { Benefit } from '@/components/Benefit/Benefit';
+import { Benefit } from '../components/Benefit/Benefit';
 import { Header } from '../components/Header/Header';
 import { Layout } from '../components/Layout/Layout';
 import { Hero } from '../components/Hero/Hero';
 import { Audience } from '../components/Audience/Audience';
+import { Possibilities } from '../components/Possibilities/Possibilities';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Benefit />
         <Audience />
+        <Possibilities />
       </Layout>
     </>
   );
