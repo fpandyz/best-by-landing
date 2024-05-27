@@ -5,6 +5,7 @@ import { Layout } from '../components/Layout/Layout';
 import { Hero } from '../components/Hero/Hero';
 import { Audience } from '../components/Audience/Audience';
 import { Possibilities } from '../components/Possibilities/Possibilities';
+import { Form } from '../components/Form/Form';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Benefit />
         <Audience />
         <Possibilities />
+        <Form />
       </Layout>
     </>
   );
