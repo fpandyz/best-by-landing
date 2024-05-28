@@ -1,11 +1,39 @@
+import { useState, useEffect } from 'react';
+import { getCookie, setCookie } from 'cookies-next';
+
 export function Cookie() {
+  const [isCookie, setIsCookie] = useState(true);
+
+  const cookieAccept = 'cookieAccept';
+
+  useEffect(() => {
+    if (typeof getCookie(cookieAccept) === 'string') {
+      setIsCookie(true);
+    } else {
+      setIsCookie(false);
+    }
+  }, []);
+
+  if (isCookie) {
+    return null;
+  }
+
   return (
-    <section className="font-family-1 cookie">
-      <p className="cookie__info">
-        Мы используем файлы cookies и сервисы аналитики, чтобы вам было
-        удобно пользоваться сайтом. Оставаясь на сайте, вы соглашаетесь с этим.
-      </p>
-      <button type="button" className="cookie__btn">Хорошо</button>
-    </section>
+    <div>
+      {!isCookie ? (
+        <section className="font-family-1 cookie">
+          <p className="cookie__info">
+            Мы используем файлы cookies и сервисы аналитики, чтобы вам было
+            удобно пользоваться сайтом. Оставаясь на сайте, вы соглашаетесь с этим.
+          </p>
+          <button type="button" onClick={acceptCookie} className="cookie__btn">Хорошо</button>
+        </section>
+      ) : <div />}
+    </div>
   );
+
+  function acceptCookie() {
+    setCookie(cookieAccept, true);
+    setIsCookie(true);
+  }
 }
