@@ -5,10 +5,10 @@ import { Layout } from '../components/Layout/Layout';
 import { Hero } from '../components/Hero/Hero';
 import { Audience } from '../components/Audience/Audience';
 import { Possibilities } from '../components/Possibilities/Possibilities';
-import { Footer } from '../components/Footer/Footer';
 import { Demonstration } from '../components/Demonstration/Demonstration';
 import { Advantages } from '../components/Advantages/Advantages';
 import { Form } from '../components/Form/Form';
+import { Footer } from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -25,10 +25,10 @@ export default function Home() {
         <Benefit />
         <Audience />
         <Possibilities />
-        <Footer />
         <Demonstration />
         <Advantages />
         <Form />
+        <Footer />
       </Layout>
     </>
   );
