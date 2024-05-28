@@ -8,19 +8,21 @@
 
   &__image {
     display: none;
-    border-radius: 2.3rem;
-    width: 100%;
-    background-image: url("../../public/images/form-phone.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
     @include tablet {
       display: block;
+      border-radius: 2.3rem;
+      width: 100%;
+      min-height: 23.5rem;
       max-width: 39%;
+      background-image: url("../../public/images/form-phone.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     @include desktop {
+      min-height: 30.8rem;
       max-width: 49.5%;
     }
   }
@@ -33,13 +35,11 @@
     background-color: $color-white;
 
     @include tablet {
-      min-height: 23.5rem;
       max-width: 59.5%;
     }
 
     @include desktop {
       padding: 3rem;
-      min-height: 30.8rem;
       max-width: 49.5%;
     }
   }
