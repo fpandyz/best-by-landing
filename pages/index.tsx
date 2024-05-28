@@ -5,6 +5,8 @@ import { Layout } from '../components/Layout/Layout';
 import { Hero } from '../components/Hero/Hero';
 import { Audience } from '../components/Audience/Audience';
 import { Possibilities } from '../components/Possibilities/Possibilities';
+import { Demonstration } from '../components/Demonstration/Demonstration';
+import { Advantages } from '../components/Advantages/Advantages';
 import { Form } from '../components/Form/Form';
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
         <Benefit />
         <Audience />
         <Possibilities />
+        <Demonstration />
+        <Advantages />
         <Form />
       </Layout>
     </>
