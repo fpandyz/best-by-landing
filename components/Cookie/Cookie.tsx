@@ -1,6 +1,6 @@
 export function Cookie() {
   return (
-    <section className="cookie">
+    <section className="font-family-1 cookie">
       <p className="cookie__info">
         Мы используем файлы cookies и сервисы аналитики, чтобы вам было
         удобно пользоваться сайтом. Оставаясь на сайте, вы соглашаетесь с этим.
