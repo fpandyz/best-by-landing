@@ -1,0 +1,33 @@
+.footer {
+  padding: 1rem 0 0.8rem;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__text {
+    font-size: 0.9rem;
+    color: $color-gray;
+
+    &:first-child {
+      margin: 0 auto 0 0;
+    }
+
+    @include tablet {
+      font-size: 1rem;
+    }
+
+    @include desktop {
+      font-size: 1.1rem;
+    }
+  }
+
+  @include tablet {
+    padding: 1.4rem 0 1rem;
+  }
+
+  @include desktop {
+    padding: 2rem 0 1.8rem;
+  }
+}
