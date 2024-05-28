@@ -9,6 +9,7 @@ import { Footer } from '../components/Footer/Footer';
 import { Demonstration } from '../components/Demonstration/Demonstration';
 import { Advantages } from '../components/Advantages/Advantages';
 import { Form } from '../components/Form/Form';
+import { Cookie } from '../components/Cookie/Cookie';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <Header />
       <Layout>
+        <Cookie />
         <Hero />
         <Benefit />
         <Audience />
