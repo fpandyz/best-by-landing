@@ -69,6 +69,11 @@
     text-align: center;
     color: $color-white;
     background-color: $color-black;
+    transition: 0.1s;
+
+    &:hover {
+      opacity: 0.7;
+    }
 
     @include tablet {
       margin-top: 0;
