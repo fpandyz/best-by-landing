@@ -1,8 +1,19 @@
 import { useState, useEffect } from 'react';
 import { getCookie, setCookie } from 'cookies-next';
+import { OptionYM } from '../../types/globals';
+
+export const optionYandexMetrika: OptionYM = {
+  clickmap: true,
+  trackLinks: true,
+  accurateTrackBounce: true,
+  webvisor: true,
+};
 
 export function Cookie() {
   const [isCookie, setIsCookie] = useState(true);
+  const date = new Date();
+
+  const isMetricsEnabled = process.env.NODE_ENV === 'production';
 
   const cookieAccept = 'cookieAccept';
 
@@ -36,6 +47,12 @@ export function Cookie() {
   function acceptCookie() {
     setCookie(cookieAccept, true);
     setIsCookie(true);
+
+    if (isMetricsEnabled) {
+      window.gtag('js', date);
+
+      window.ym(97415894, 'init', optionYandexMetrika);
+    }
   }
 
   function rejectCookie() {
