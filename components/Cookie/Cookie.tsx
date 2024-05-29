@@ -11,7 +11,6 @@ export const optionYandexMetrika: OptionYM = {
 
 export function Cookie() {
   const [isCookie, setIsCookie] = useState(true);
-  const date = new Date();
 
   const isMetricsEnabled = process.env.NODE_ENV === 'production';
 
@@ -32,7 +31,7 @@ export function Cookie() {
   return (
     <div>
       {!isCookie ? (
-        <section className="font-family-1 cookie">
+        <section className="font-weight-medium cookie">
           <p className="cookie__info">
             Мы используем файлы cookie для аналитики и маркетинга,
             чтобы вам было удобно пользоваться нашим веб-сайтом.
@@ -49,8 +48,6 @@ export function Cookie() {
     setIsCookie(true);
 
     if (isMetricsEnabled) {
-      window.gtag('js', date);
-
       window.ym(97415894, 'init', optionYandexMetrika);
     }
   }

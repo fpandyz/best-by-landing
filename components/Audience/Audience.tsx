@@ -1,13 +1,13 @@
 export function Audience() {
   return (
-    <div className="audience">
-      <div className="font-family-1 container audience__wrapper">
-        <h2 className="font-family-2 text-type-2 audience__title">Для кого создан Best By</h2>
-        <p className="text-type-5 audience__description">
+    <section className="audience">
+      <div className="container audience__wrapper">
+        <h2 className="text-type-2 audience__title">Для кого создан Best By</h2>
+        <p className="font-weight-medium text-type-5 audience__description">
           Сервис будет полезен для продуктовых сетей и предприятий общественного
           питания, работающих со скоропорящейся продукцией
         </p>
-        <div className="audience__cards">
+        <div className="font-weight-medium audience__cards">
           <div className="audience__card">
             <span className="text-type-5 audience__label">Кафе</span>
           </div>
@@ -28,6 +28,6 @@ export function Audience() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

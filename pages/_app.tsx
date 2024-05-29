@@ -1,14 +1,8 @@
-import '@/styles/index.scss';
 import type { AppProps } from 'next/app';
-import { Inter, Manrope } from 'next/font/google';
+import { Manrope } from 'next/font/google';
 import { useEffect } from 'react';
 import router from 'next/router';
-
-const inter = Inter({
-  weight: ['500', '600'],
-  subsets: ['latin', 'cyrillic'],
-  variable: '--font-inter',
-});
+import '@/styles/index.scss';
 
 const manrope = Manrope({
   weight: ['400', '500'],
@@ -34,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [router.events]);
 
   return (
-    <div className={`${inter.className} ${manrope.className}`}>
+    <div className={`${manrope.className}`}>
       <Component {...pageProps} />
     </div>
   );
