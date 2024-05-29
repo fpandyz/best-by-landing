@@ -3,7 +3,6 @@
 
   &__title {
     margin-bottom: 1rem;
-    font-family: inherit;
     line-height: 1.2;
 
     @include tablet {
@@ -129,7 +128,6 @@
 
   &__label {
     margin-bottom: 1rem;
-    font-family: inherit;
     line-height: 1;
     color: $color-black-card-title;
 
@@ -145,7 +143,6 @@
 
   &__description {
     margin-bottom: auto;
-    font-family: inherit;
     color: $color-gray;
 
     &--white {
@@ -198,7 +195,6 @@
     display: block;
     border-radius: 10rem;
     padding: 0.5rem 1.5rem;
-    font-family: inherit;
     color: $color-white-text-category;
     background-color: $color-white-category-bg;
 
@@ -244,7 +240,6 @@
   }
 
   &__status-label {
-    font-family: inherit;
     font-size: 14px;
 
     @include desktop {
