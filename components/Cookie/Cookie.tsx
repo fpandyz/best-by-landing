@@ -31,7 +31,7 @@ export function Cookie() {
   return (
     <div>
       {!isCookie ? (
-        <section className="font-family-1 cookie">
+        <section className="font-weight-medium cookie">
           <p className="cookie__info">
             Мы используем файлы cookie для аналитики и маркетинга,
             чтобы вам было удобно пользоваться нашим веб-сайтом.

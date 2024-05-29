@@ -12,8 +12,8 @@ export function Possibilities() {
   return (
     <section className="possibilities">
       <div className="container possibilities__wrapper">
-        <h2 className="font-family-2 text-type-2 possibilities__title">Best By отслеживает срок годности продукции за вас</h2>
-        <div className="font-family-1 possibilities__cards">
+        <h2 className="text-type-2 possibilities__title">Best By отслеживает срок годности продукции за вас</h2>
+        <div className="font-weight-medium possibilities__cards">
           <div className="possibilities__card">
             <h3 className="text-type-3 possibilities__label possibilities__label--white">Быстрое добавление товара</h3>
             <p className="text-type-6 possibilities__description possibilities__description--white">
@@ -56,7 +56,7 @@ export function Possibilities() {
             </p>
             <div className="possibilities__product-images">
               <div className="possibilities__state-card">
-                <span className="font-family-3 possibilities__status-label">Истекает срок годности</span>
+                <span className="possibilities__status-label">Истекает срок годности</span>
                 <Image
                   src={ProductCardExpiresSrc}
                   className="possibilities__image"
@@ -64,7 +64,7 @@ export function Possibilities() {
                 />
               </div>
               <div className="possibilities__state-card">
-                <span className="font-family-3 possibilities__status-label">Просрочен</span>
+                <span className="possibilities__status-label">Просрочен</span>
                 <Image
                   src={ProductCardExpiredSrc}
                   className="possibilities__image"

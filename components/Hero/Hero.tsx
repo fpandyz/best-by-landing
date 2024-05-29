@@ -7,10 +7,10 @@ export function Hero() {
   return (
     <section className="hero">
       <div className="container hero__wrapper">
-        <h1 className="font-family-2 text-type-1 hero__title">
+        <h1 className="text-type-1 hero__title">
           Сервис для отслеживания срока годности продукции
         </h1>
-        <p className="font-family-1 text-type-5 hero__description">
+        <p className="font-weight-medium text-type-5 hero__description">
           Best By помогает продуктовым сетям и точкам общепита сохранять
           на прилавках только свежие и безопасные продукты
         </p>

@@ -16,7 +16,7 @@ export function Header() {
           className="header__logo header__logo--desktop"
           alt="Best By Logo"
         />
-        <a href="mailto:contact@tourmalinecore.com" className="font-family-1 header__btn">Оставить заявку</a>
+        <a href="mailto:contact@tourmalinecore.com" className="font-weight-medium header__btn">Оставить заявку</a>
       </div>
     </header>
   );
