@@ -34,8 +34,8 @@ export function Cookie() {
       {!isCookie ? (
         <section className="font-family-1 cookie">
           <p className="cookie__info">
-            Мы используем файлы cookies и сервисы аналитики, чтобы вам было
-            удобно пользоваться сайтом. Оставаясь на сайте, вы соглашаетесь с этим.
+            Мы используем файлы cookie для аналитики и маркетинга,
+            чтобы вам было удобно пользоваться нашим веб-сайтом.
           </p>
           <button type="button" onClick={acceptCookie} className="cookie__btn">Хорошо</button>
           <button type="button" onClick={rejectCookie} className="cookie__btn cookie__btn--reject">Отказаться</button>
