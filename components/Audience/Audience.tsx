@@ -1,6 +1,6 @@
 export function Audience() {
   return (
-    <div className="audience">
+    <section className="audience">
       <div className="container audience__wrapper">
         <h2 className="text-type-2 audience__title">Для кого создан Best By</h2>
         <p className="font-weight-medium text-type-5 audience__description">
@@ -28,6 +28,6 @@ export function Audience() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
