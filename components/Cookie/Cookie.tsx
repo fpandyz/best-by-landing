@@ -27,6 +27,7 @@ export function Cookie() {
             удобно пользоваться сайтом. Оставаясь на сайте, вы соглашаетесь с этим.
           </p>
           <button type="button" onClick={acceptCookie} className="cookie__btn">Хорошо</button>
+          <button type="button" onClick={rejectCookie} className="cookie__btn cookie__btn--reject">Отказаться</button>
         </section>
       ) : <div />}
     </div>
@@ -34,6 +35,11 @@ export function Cookie() {
 
   function acceptCookie() {
     setCookie(cookieAccept, true);
+    setIsCookie(true);
+  }
+
+  function rejectCookie() {
+    setCookie(cookieAccept, false);
     setIsCookie(true);
   }
 }
