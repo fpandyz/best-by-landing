@@ -5,7 +5,7 @@ export function Audience() {
         <h2 className="text-type-2 audience__title">Для кого создан Best By</h2>
         <p className="font-weight-medium text-type-5 audience__description">
           Сервис будет полезен для продуктовых сетей и предприятий общественного
-          питания, работающих со скоропорящейся продукцией
+          питания, работающих со скоропорящейся продукцией.
         </p>
         <div className="font-weight-medium audience__cards">
           <div className="audience__card">
