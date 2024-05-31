@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import SeafoodImageSrc from '../../public/images/seafood.jpg';
-import PreviewInterfaceSrc from '../../public/images/previewInterface.jpg';
+import PreviewInterfaceSrc from '../../public/images/hero-preview.jpg';
 import CakeSrc from '../../public/images/cake.jpg';
 
 export function Hero() {
@@ -12,7 +12,7 @@ export function Hero() {
         </h1>
         <p className="font-weight-medium text-type-5 hero__description">
           Best By помогает продуктовым сетям и точкам общепита сохранять
-          на прилавках только свежие и безопасные продукты
+          на прилавках только свежую и безопасную продукцию.
         </p>
         <div className="hero__cards">
           <Image
