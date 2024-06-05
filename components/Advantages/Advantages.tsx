@@ -10,8 +10,8 @@ export function Advantages() {
             <h3 className="font-weight-medium text-type-3 advantages__label">Надёжно</h3>
             <p className="font-weight-medium text-type-6 advantages__description">
               Наш сервис обеспечивает надежное хранение
-              и управление сроками годности, минимизируя ошибки
-              и потерю информации
+              и&nbsp;управление сроками годности, минимизируя ошибки
+              и&nbsp;потерю информации.
             </p>
           </div>
           <div className="advantages__card">
@@ -32,9 +32,9 @@ export function Advantages() {
           <div className="advantages__card">
             <h3 className="font-weight-medium text-type-3 advantages__label">Гибко</h3>
             <p className="font-weight-medium text-type-6 advantages__description">
-              Сервис адаптирован под любое устройство: ТСД, планшет,
-              смартфон, компьютер. Сотрудники заносят данные на производстве,
-              а руководство может проверять их из офиса.
+              Сервис адаптирован под любое устройство: ТСД, планшет,&nbsp;смартфон,
+              компьютер. Сотрудники заносят данные на&nbsp;производстве, а руководство
+              может проверять их из офиса.
             </p>
           </div>
           <div className="advantages__card">

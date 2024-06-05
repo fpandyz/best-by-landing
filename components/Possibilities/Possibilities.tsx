@@ -15,10 +15,10 @@ export function Possibilities() {
         <h2 className="text-type-2 possibilities__title">Best By отслеживает срок годности продукции за вас</h2>
         <div className="font-weight-medium possibilities__cards">
           <div className="possibilities__card">
-            <h3 className="text-type-3 possibilities__label possibilities__label--white">Быстрое добавление товара</h3>
+            <h3 className="text-type-3 possibilities__label possibilities__label--white">Быстрое добавление продукции</h3>
             <p className="text-type-6 possibilities__description possibilities__description--white">
-              Сканируйте штрихкод продукции и она сразу появится в системе.
-              Вам останется только ввести срок годности и свойства продукта
+              Сканируйте штрихкод продукции и&nbsp;она сразу появится в&nbsp;системе.
+              Вам останется только ввести её свойства.
             </p>
             <div className="possibilities__barcode-images">
               <Image
@@ -37,7 +37,7 @@ export function Possibilities() {
             <h3 className="text-type-3 possibilities__label">Фильтрация по цехам</h3>
             <p className="text-type-6 possibilities__description">
               Если у вас большое производство, продукцию можно разделить по цехам
-              и отслеживать свежесть продукции в каждом из них
+              и&nbsp;отслеживать свежесть продукции в&nbsp;каждом из них.
             </p>
             <div className="possibilities__categories">
               <span className="text-type-4 possibilities__category possibilities__category--red">Горячий</span>
@@ -51,8 +51,8 @@ export function Possibilities() {
               Система подскажет, когда срок годности подходит к концу
             </h3>
             <p className="text-type-6 possibilities__description">
-              У вас останется достаточное количество времени для снятия продукта с
-              истекшим сроком годности с продажи, чтобы он не попал в руки покупателей
+              У вас останется достаточное количество времени для снятия продукции с истекшим сроком
+              годности с продажи, чтобы она не попала в руки покупателей.
             </p>
             <div className="possibilities__product-images">
               <div className="possibilities__state-card">
@@ -85,7 +85,7 @@ export function Possibilities() {
             <h3 className="text-type-3 possibilities__label">Управление аккаунтами</h3>
             <p className="text-type-6 possibilities__description">
               Создавайте неограниченное количество аккаунтов для своей организации и
-              разграничивайте доступ к информации между сотрудниками
+              разграничивайте доступ к информации между сотрудниками.
             </p>
             <div className="possibilities__employees-images">
               <Image
@@ -105,7 +105,7 @@ export function Possibilities() {
             <p className="text-type-6 possibilities__description possibilities__description--white">
               После сканирования продукция попадает в журнал и доступна
               к выгрузке или печати. Доступ к нему возможен из любой точки,
-              в отличие от бумажного журнала, который лежит на производстве
+              в отличие от бумажного журнала, который лежит на производстве.
             </p>
             <div className="possibilities__interface-image">
               <Image
