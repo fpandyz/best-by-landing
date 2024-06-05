@@ -31,25 +31,29 @@
 
   &__cards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 1%;
   }
 
   &__card-image {
     display: none;
-    flex-grow: 1;
     border-radius: 2rem;
+    width: 100%;
     height: fit-content;
 
     &--large {
       display: block;
-      flex-grow: 2;
     }
 
     @include tablet {
       display: block;
       border-radius: 2.2rem;
+      width: 24%;
+      aspect-ratio: 182/192;
+
+      &--large {
+        width: 50%;
+        aspect-ratio: 336/170;
+      }
     }
 
     @include desktop {
