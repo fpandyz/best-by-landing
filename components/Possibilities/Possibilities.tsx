@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import Image from 'next/image';
-import BarcodeImageSrc from '../../public/images/possibilities-barcode.jpg';
-import ProductCardWhiteImageSrc from '../../public/images/possibilities-product-card-white.jpg';
-import ProductCardExpiresSrc from '../../public/images/possibilities-status-expires.jpg';
-import ProductCardExpiredSrc from '../../public/images/possibilities-status-expired.jpg';
+import BarcodeImageSrc from '../../public/images/possibilities-barcode.png';
+import ProductCardWhiteImageSrc from '../../public/images/possibilities-product-card-white.png';
+import ProductCardExpiresSrc from '../../public/images/possibilities-status-expires.png';
+import ProductCardExpiredSrc from '../../public/images/possibilities-status-expired.png';
 import TieIconSrc from '../../public/images/possibilities-tie.svg';
 import CapIconSrc from '../../public/images/possibilities-cap.svg';
-import InterfaceImageSrc from '../../public/images/possibilities-interface.jpg';
+import InterfaceImageSrc from '../../public/images/possibilities-interface.png';
 
 export function Possibilities() {
   return (
