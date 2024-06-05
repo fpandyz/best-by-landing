@@ -40,28 +40,28 @@
     background-repeat: no-repeat;
 
     &:nth-child(1) {
-      background-image: url("../../public/images/audience-coffie.png");
+      background-image: url("../../public/images/audience-coffie.webp");
     }
 
     &:nth-child(2) {
-      background-image: url("../../public/images/audience-cakes.png");
+      background-image: url("../../public/images/audience-cakes.webp");
     }
 
     &:nth-child(3) {
-      background-image: url("../../public/images/audience-tables.png");
+      background-image: url("../../public/images/audience-tables.webp");
     }
 
     &:nth-child(4) {
-      background-image: url("../../public/images/audience-fish.png");
+      background-image: url("../../public/images/audience-fish.webp");
       background-position: center center;
     }
 
     &:nth-child(5) {
-      background-image: url("../../public/images/audience-herbs.png");
+      background-image: url("../../public/images/audience-herbs.webp");
     }
 
     &:nth-child(6) {
-      background-image: url("../../public/images/audience-pizza.png");
+      background-image: url("../../public/images/audience-pizza.webp");
     }
 
     @include tablet {

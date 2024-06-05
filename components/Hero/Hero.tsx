@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import SeafoodImageSrc from '../../public/images/seafood.png';
-import PreviewInterfaceSrc from '../../public/images/hero-preview.png';
-import CakeSrc from '../../public/images/cake.png';
+import SeafoodImageSrc from '../../public/images/seafood.webp';
+import PreviewInterfaceSrc from '../../public/images/hero-preview.webp';
+import CakeSrc from '../../public/images/cake.webp';
 
 export function Hero() {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import DiagramSrc from '../../public/images/hero-graph.svg';
-import CustomersSrc from '../../public/images/customers.png';
+import CustomersSrc from '../../public/images/customers.webp';
 
 export function Benefit() {
   return (
