@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import DiagramSrc from '../../public/images/hero-graph.svg';
 import CustomersSrc from '../../public/images/customers.webp';
-// import ComputerImageSrc from '../../public/images/computer-on-the-table.webp';
-// import CashImageSrc from '../../public/images/cash-register.webp';
+import ComputerImageSrc from '../../public/images/computer-on-the-table.webp';
+import CashImageSrc from '../../public/images/cash-register.webp';
 
 export function Benefit() {
   return (
@@ -30,11 +30,11 @@ export function Benefit() {
         </div>
         <div className="benefit__card">
           <h3 className="font-weight-medium text-type-4 benefit__title">Помогает контролировать работу сотрудников</h3>
-          {/* <Image
+          <Image
             src={ComputerImageSrc}
             className="benefit__image"
             alt="Cash Image"
-          /> */}
+          />
         </div>
         <div className="benefit__card">
           <h3 className="font-weight-medium text-type-4 benefit__title">Повышает доверие покупателей</h3>
@@ -49,11 +49,11 @@ export function Benefit() {
         </div>
         <div className="benefit__card">
           <h3 className="font-weight-medium text-type-4 benefit__title">Снижает риск продажи просроченной продукции</h3>
-          {/* <Image
+          <Image
             src={CashImageSrc}
             className="benefit__image"
             alt="Cash Image"
-          /> */}
+          />
         </div>
       </div>
     </section>
