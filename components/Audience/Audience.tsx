@@ -1,10 +1,10 @@
-// import Image from 'next/image';
-// import CafeImageSrc from '../../public/images/audience-coffie.webp';
-// import CakeImageSrc from '../../public/images/audience-cakes.webp';
-// import TablesImageSrc from '../../public/images/audience-tables.webp';
-// import FishImageSrc from '../../public/images/audience-fish.webp';
-// import HerbsImageSrc from '../../public/images/audience-herbs.webp';
-// import PizzaImageSrc from '../../public/images/audience-pizza.webp';
+import Image from 'next/image';
+import CafeImageSrc from '../../public/images/audience-coffie.webp';
+import CakeImageSrc from '../../public/images/audience-cakes.webp';
+import TablesImageSrc from '../../public/images/audience-tables.webp';
+import FishImageSrc from '../../public/images/audience-fish.webp';
+import HerbsImageSrc from '../../public/images/audience-herbs.webp';
+import PizzaImageSrc from '../../public/images/audience-pizza.webp';
 
 export function Audience() {
   return (
@@ -18,51 +18,51 @@ export function Audience() {
         <div className="font-weight-medium audience__cards">
           <div className="audience__card">
             <span className="text-type-5 audience__label">Кафе</span>
-            {/* <Image
+            <Image
               src={CafeImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
           <div className="audience__card">
             <span className="text-type-5 audience__label">Пекарни</span>
-            {/* <Image
+            <Image
               src={CakeImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
           <div className="audience__card">
             <span className="text-type-5 audience__label">Рестораны</span>
-            {/* <Image
+            <Image
               src={TablesImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
           <div className="audience__card">
             <span className="text-type-5 audience__label">Магазины</span>
-            {/* <Image
+            <Image
               src={FishImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
           <div className="audience__card">
             <span className="text-type-5 audience__label">Столовые</span>
-            {/* <Image
+            <Image
               src={HerbsImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
           <div className="audience__card">
             <span className="text-type-5 audience__label">Фастфуд</span>
-            {/* <Image
+            <Image
               src={PizzaImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
-            /> */}
+            />
           </div>
         </div>
       </div>
