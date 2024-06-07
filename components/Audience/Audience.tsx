@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CafeImageSrc from '../../public/images/audience-coffie.webp';
+import CafeImageSrc from '../../public/images/audience-coffie.png';
 import CakeImageSrc from '../../public/images/audience-cakes.webp';
 import TablesImageSrc from '../../public/images/audience-tables.webp';
 import FishImageSrc from '../../public/images/audience-fish.webp';
