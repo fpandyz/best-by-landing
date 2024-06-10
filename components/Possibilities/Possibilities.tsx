@@ -25,11 +25,13 @@ export function Possibilities() {
                 src={BarcodeImageSrc}
                 className="possibilities__image"
                 alt="Barcode Image"
+                priority
               />
               <Image
                 src={ProductCardWhiteImageSrc}
                 className="possibilities__image"
                 alt="Product Card Image"
+                priority
               />
             </div>
           </div>
@@ -61,6 +63,7 @@ export function Possibilities() {
                   src={ProductCardExpiresSrc}
                   className="possibilities__image"
                   alt="Product Status Image"
+                  priority
                 />
               </div>
               <div className="possibilities__state-card">
@@ -69,6 +72,7 @@ export function Possibilities() {
                   src={ProductCardExpiredSrc}
                   className="possibilities__image"
                   alt="Product Status Image"
+                  priority
                 />
               </div>
             </div>
@@ -92,11 +96,13 @@ export function Possibilities() {
                 src={TieIconSrc}
                 className="possibilities__employees-icon"
                 alt="Employees Image"
+                priority
               />
               <Image
                 src={CapIconSrc}
                 className="possibilities__employees-icon"
                 alt="Employees Image"
+                priority
               />
             </div>
           </div>
@@ -112,6 +118,7 @@ export function Possibilities() {
                 src={InterfaceImageSrc}
                 className="possibilities__image"
                 alt="Interface Image"
+                priority
               />
             </div>
           </div>

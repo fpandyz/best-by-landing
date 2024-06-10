@@ -9,6 +9,7 @@ export function Form() {
           src={InterfacePreviewSrc}
           className="form__image"
           alt="Interface Image"
+          priority
         />
         <div className="form__card">
           <h2 className="text-type-2 form__title">Свяжитесь с нами</h2>

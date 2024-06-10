@@ -26,6 +26,7 @@ export function Benefit() {
             src={DiagramSrc}
             className="benefit__diagram"
             alt="Diagram Image"
+            priority
           />
         </div>
         <div className="benefit__card">
@@ -34,6 +35,7 @@ export function Benefit() {
             src={ComputerImageSrc}
             className="benefit__image"
             alt="Cash Image"
+            priority
           />
         </div>
         <div className="benefit__card">
@@ -45,6 +47,7 @@ export function Benefit() {
             src={CustomersSrc}
             className="benefit__customers"
             alt="Customer Trust Image"
+            priority
           />
         </div>
         <div className="benefit__card">
@@ -53,6 +56,7 @@ export function Benefit() {
             src={CashImageSrc}
             className="benefit__image"
             alt="Cash Image"
+            priority
           />
         </div>
       </div>
