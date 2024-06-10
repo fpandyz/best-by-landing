@@ -10,11 +10,13 @@ export function Header() {
           src={LogoImageTabletSrc}
           className="header__logo header__logo--small"
           alt="Best By Logo"
+          priority
         />
         <Image
           src={LogoImageDesktopSrc}
           className="header__logo header__logo--desktop"
           alt="Best By Logo"
+          priority
         />
         <a href="mailto:contact@tourmalinecore.com" className="font-weight-medium header__btn">Оставить заявку</a>
       </div>
