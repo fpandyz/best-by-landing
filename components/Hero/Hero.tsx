@@ -19,16 +19,19 @@ export function Hero() {
             src={SeafoodImageSrc}
             className="hero__card-image"
             alt="Seafood Image"
+            priority
           />
           <Image
             src={PreviewInterfaceSrc}
             className="hero__card-image hero__card-image--large"
             alt="Preview Interface Image"
+            priority
           />
           <Image
             src={CakeSrc}
             className="hero__card-image"
             alt="Cake Image"
+            priority
           />
         </div>
       </div>
