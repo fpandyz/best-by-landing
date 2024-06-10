@@ -22,6 +22,7 @@ export function Audience() {
               src={CafeImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
           <div className="audience__card">
@@ -30,6 +31,7 @@ export function Audience() {
               src={CakeImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
           <div className="audience__card">
@@ -38,6 +40,7 @@ export function Audience() {
               src={TablesImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
           <div className="audience__card">
@@ -46,6 +49,7 @@ export function Audience() {
               src={FishImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
           <div className="audience__card">
@@ -54,6 +58,7 @@ export function Audience() {
               src={HerbsImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
           <div className="audience__card">
@@ -62,6 +67,7 @@ export function Audience() {
               src={PizzaImageSrc}
               className="audience__image"
               alt="Cafe Card Image"
+              priority
             />
           </div>
         </div>
